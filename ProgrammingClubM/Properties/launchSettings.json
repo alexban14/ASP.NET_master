@@ -3,8 +3,12 @@
     "ProgrammingClubM": {
       "commandName": "Project",
       "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ConnectionStrings:DefaultConnection": "Data Source=AN515-45\\\\MSSQLSERVER01;Initial Catalog=clubmembership;Integrated Security=True;Multiple Active Result Sets=True"
+      },
       "dotnetRunMessages": true,
-      "applicationUrl": "http://localhost:5224"
+      "applicationUrl": "https://localhost:7003;http://localhost:5228"
     },
     "IIS Express": {
       "commandName": "IISExpress",
@@ -18,8 +22,8 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:35276",
-      "sslPort": 0
+      "applicationUrl": "http://localhost:22575",
+      "sslPort": 44366
     }
   }
 }
