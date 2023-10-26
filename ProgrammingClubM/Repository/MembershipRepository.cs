@@ -17,7 +17,7 @@ namespace ProgrammingClubM.Repository
             this.dbContext = dbContext;
         }
 
-        public List<Membership> GetAMllMemberships()
+        public List<Membership> GetAllMemberships()
         {
             List<Membership> list = new List<Membership>();
 
